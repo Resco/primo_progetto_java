@@ -4,6 +4,7 @@
 
 Questo è un nuovo post per testare che il titolo e la data non siano duplicati.
 
+++DOPPIACOPIA++
 ## Cosa dovrebbe succedere
 
 - Il titolo dovrebbe apparire solo nell'header del post
@@ -23,5 +24,6 @@ Anche questo dovrebbe funzionare correttamente.
 - Per testare
 
 ---
+++DOPPIACOPIAFINE++
 
 **Test completato!** 

@@ -1,0 +1,50 @@
+# Alcuni test di traduzione
+
+*August 30, 2025*
+
+Questo è un post in cui provo la funzionalità di traduzione automatica
+
+## Cosa dovrebbe succedere
+
+- Dovrebbe vedersi tutto doppio 
+- Prima italiano
+- Poi inglese
+
+## Test del contenuto in italiano da tradurre
+
+Eccolo qua
+
+### Sottotitolo
+
+Anche questo dovrebbe funzionare correttamente.
+
+- Lista
+- Di elementi
+- Per testare
+- Che traduca!
+
+---
+
+## What should happen
+
+- It's supposed to be double.
+- First Italian
+- Then English.
+
+## Test of the content to be translated into English
+
+There he is.
+
+### Subtitle
+
+This should also work properly.
+
+- List
+- Elements
+- To test.
+- What a translator!
+
+---
+
+
+**Test completato e tradotto!** 

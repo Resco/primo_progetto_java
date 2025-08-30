@@ -53,14 +53,19 @@ def duplicate_doppia_copia(input_filename, output_dir):
     # Unisco tutto
     new_lines = head + new_middle + tail
 
-    # Output filename
-    base_name = os.path.basename(input_filename)
-    output_path = os.path.join(output_dir, base_name)
+    from datetime import datetime
+    # Output filename con timestamp
+    timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
+    output_filename = f"{timestamp}.txt"
+    output_path = os.path.join(output_dir, output_filename)
 
     # Scrivi il nuovo file
     with open(output_path, 'w', encoding='utf-8') as f:
         f.writelines(new_lines)
     print(f"Creato: {output_path}")
+    # Cancella l'originale
+    os.remove(input_filename)
+    print(f"Cancellato originale: {input_filename}")
 
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
